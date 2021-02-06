@@ -83,12 +83,12 @@ nav ul li a:hover{
 }
 
 .content h1{
-    font-size: 3.5rem;
+    font-size: 3rem;
     line-height: 60px;
 }
 .about-me p{
 	color: #0b0c0e;
-	font-size: 1.8rem;
+	font-size: 1.1rem;
 }
 .btn{
     margin: auto;
@@ -119,7 +119,6 @@ nav ul li a:hover{
     margin:auto auto 50px auto;
     height: 90vh;
     background-color: hsl(185, 42%, 90%);
-    /* background: url('/img/minimalfacebook.jpg') center center/cover; */
 }
 
 .skill-text{
@@ -233,6 +232,9 @@ nav ul li a:hover{
 	margin: 10px;
     border: 3px solid #000;
     box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+	width: 650px;
+
+	
 }
 
 figure:hover img{
