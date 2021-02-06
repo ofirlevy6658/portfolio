@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body{
+	margin:0px;
+	padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    background-color:hsl(186, 51%, 87%)
+}
+
+*{
+	box-sizing:border-box;
+	scroll-behavior: smooth;
+}
+
+h1{
+    font-family: 'Crimson Text', serif;
+    letter-spacing: 2px;
+    color:#0b0c0e;
+}
+ul{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+#main{
+	width:100%;
+	height:100vh;
+    position: relative;
+    background: url('./img/nattu-adnan-Ai2TRdvI6gM-unsplash.jpg') center center/cover;
+    opacity: 0.75;
+
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+    background-color: #f4f4f4;
+	box-shadow: 5px 10px 30px rgba(21,3,4,0.2);
+	position: fixed;
+	left: 0;
+	top: 0;
+	width:100%;
+	z-index: 1;
+	/* background-color: #03DAC6; */
+}
+
+.social a{
+    margin-left:25px;
+}
+nav ul{
+	display: flex;
+}
+nav ul li a{
+	height:40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	font-weight: 500;
+	color:#585b5b;
+	letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+	background-color: #2fcaca;
+	color:#bd6799;
+	box-shadow: 5px 10px 30px #b3e9e84d;
+	transition: all ease 1.5s;
+}
+
+.content{
+    margin:auto;
+    width: 40%;
+    height:80%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    justify-content: space-around;
+}
+
+.content h1{
+    font-size: 3.5rem;
+    line-height: 60px;
+}
+.about-me p{
+	color: #0b0c0e;
+	font-size: 1.8rem;
+}
+.btn{
+    margin: auto;
+	width:150px;
+	height: 44px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color:#FFFFFF;
+	background-color: #1db096;
+	border-radius: 20px;
+	box-shadow: 4px 10px 30px rgba(24,139,119,0.2);
+}  
+.btn:hover{
+	background-color: #23cdaf;
+	transition: all ease 1.2s;
+}
+
+
+/* skills */
+
+
+#skills{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width:60%;
+    margin:auto auto 50px auto;
+    height: 90vh;
+    background-color: hsl(185, 42%, 90%);
+    /* background: url('/img/minimalfacebook.jpg') center center/cover; */
+}
+
+.skill-text{
+	width:400px;
+}
+.skill-img{
+	width:500px;
+	height: 500px;
+}
+.skill-img img{
+	width:100%;
+	height: 100%;
+	object-fit: contain;
+}
+.skill-heading span{
+	color:#36b7b5;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 1.2rem;
+}
+.skill-heading h2{
+	color: #1c3548;
+	font-size: 3.7rem;
+	margin:0px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.s-box-container{
+	margin-top: 30px;
+}
+.skill-box{
+	display: flex;
+	margin: 25px 0px;
+}
+.s-box-icon{
+	margin-right:12px;
+}
+
+
+.s-box-icon i{
+	width:40px;
+	height: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #f0f0f0;
+	font-size: 1.1rem;
+}
+.s-box-text strong{
+	color:#1c3548;
+	margin: 0px;
+	font-size: 0.9rem;
+	font-weight: 600;
+}
+.s-box-text p{
+	color:#747474;
+	font-size: 0.9rem;
+}
+
+/*icon color */
+
+.fa-html5{
+	color:#e06061;
+}
+.fa-css3-alt{
+	color:#416cdf;
+}
+.fa-js-square{
+	color:#f98231;
+}
+.fa-react{
+	color:#391aec;
+}
+.fa-node-js{
+	color:#47a55e;
+}
+.fa-linkedin{
+    color:#391aec;
+}
+.fa-github{
+    color:#000000
+}
+
+/* Projects */
+
+#projects{
+    height: 90vh;
+	position: relative;
+}
+.background{
+	background: url("/img/a.jpg") no-repeat center center/cover ;
+	
+}
+#projects h1{
+	margin-top: 150px;
+	margin-left: 50px;
+	font-size: 60px;
+}
+
+.img{
+	display: flex;
+    flex-wrap: wrap;
+	justify-content: start;
+	transition: transform 1s ease;
+	overflow: hidden;
+		
+}
+.img img{
+	margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0,0,0,0.3); 
+}
+
+figure:hover img{
+    z-index: 2;
+    transform: scale(1.2);
+}
+
+
