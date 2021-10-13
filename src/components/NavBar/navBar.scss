@@ -1,0 +1,18 @@
+.navbar-container {
+	height: 5rem;
+	background-color: #040017;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.icon img {
+		width: 3.5rem;
+		border-radius: 50%;
+		margin-left: 1rem;
+	}
+	span {
+		color: #fff;
+		font-size: 1.5rem;
+		margin: 0 1rem;
+	}
+}

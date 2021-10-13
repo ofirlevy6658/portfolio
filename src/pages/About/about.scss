@@ -1,0 +1,30 @@
+.about-page {
+	height: 100vh;
+	background-color: rgb(27, 23, 36);
+	color: #fff;
+
+	.header {
+		padding-top: 6rem;
+		text-align: center;
+		font-size: 3rem;
+	}
+
+	.center {
+		display: flex;
+		justify-content: space-between;
+		width: 70%;
+		margin: auto;
+		margin-top: 15%;
+
+		.content {
+			font-size: 1.6rem;
+			width: 60%;
+			display: block;
+		}
+
+		img {
+			width: 16rem;
+			border-radius: 50%;
+		}
+	}
+}
