@@ -1,18 +1,27 @@
 .navbar-container {
-	height: 5rem;
-	background-color: #040017;
+	height: 7rem;
+	background-color: #141628;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-
+	position: fixed;
+	right: 0;
+	left: 0;
+	font-family: "Open Sans", sans-serif;
 	.icon img {
 		width: 3.5rem;
 		border-radius: 50%;
-		margin-left: 1rem;
+		position: absolute;
+		top: 1.7rem;
+		left: 3rem;
 	}
-	span {
-		color: #fff;
-		font-size: 1.5rem;
-		margin: 0 1rem;
+	.sections {
+		margin-right: 1rem;
+		span {
+			cursor: pointer;
+			color: #fff;
+			font-size: 1.3rem;
+			margin: 0 2rem;
+		}
 	}
 }

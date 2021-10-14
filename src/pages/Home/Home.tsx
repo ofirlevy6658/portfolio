@@ -2,17 +2,20 @@ import React from "react";
 import { NavBar } from "../../components/NavBar/NavBar";
 
 import "./home.scss";
-interface Props {}
 
-export const Home = (props: Props) => {
+export const Home = () => {
 	return (
 		<div className="home-page">
-			<NavBar />
 			<div className="content">
 				<div className="text">
-					<h1>Ofir Levy</h1>
-					<p>Lorem ipsum dolor sit amet consectetur.</p>
-					<button>About me</button>
+					<h1>
+						Hey, I'm <span>Ofir</span>
+					</h1>
+					<p>Full-Stack developer </p>
+					<p>
+						& <span>BSc in Computer Science </span>
+					</p>
+					{/* <button className="btn">About me</button> */}
 				</div>
 				<div className="icons">
 					<a
@@ -20,7 +23,7 @@ export const Home = (props: Props) => {
 						target="_blank"
 						rel="noreferrer"
 					>
-						<i className="fas fa-paperclip fa-3x"></i>
+						<i className="fas fa-file-alt fa-3x"></i>
 					</a>
 					<a
 						href="https://github.com/ofirlevy6658"

@@ -1,21 +1,60 @@
 import React from "react";
-import { Radio } from "semantic-ui-react";
-
-import "./navBar.scss";
+// import { Radio } from "semantic-ui-react";
+import { Link } from "react-scroll";
 import myIcon from "../../media/my-icon.jpeg";
-interface Props {}
+import "./navBar.scss";
 
-export const NavBar = (props: Props) => {
+export const NavBar = () => {
 	return (
 		<div className="navbar-container">
 			<div className="icon">
-				<img src={myIcon} alt="icon" />
+				<Link
+					to={"home-page"}
+					spy
+					smooth
+					hashSpy
+					duration={500}
+					isDynamic={true}
+				>
+					<img src={myIcon} alt="icon" />
+				</Link>
 			</div>
 			<div className="sections">
-				<span>About</span>
-				<span>Projects</span>
-				<span>Contact</span>
-				<Radio toggle onChange={() => console.log("Test")} />
+				<Link
+					activeClass="active"
+					to={"about-page"}
+					spy
+					smooth
+					hashSpy
+					duration={500}
+					isDynamic={true}
+				>
+					<span>About</span>
+				</Link>
+				<Link
+					activeClass="active"
+					to={"project-page"}
+					spy
+					smooth
+					hashSpy
+					offset={-60}
+					duration={500}
+					isDynamic={true}
+				>
+					<span>Projects</span>
+				</Link>
+				<Link
+					activeClass="active"
+					to={"contact-page"}
+					spy
+					smooth
+					hashSpy
+					offset={150}
+					duration={500}
+					isDynamic={true}
+				>
+					<span>Contact</span>
+				</Link>
 			</div>
 		</div>
 	);

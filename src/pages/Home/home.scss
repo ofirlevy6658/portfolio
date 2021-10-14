@@ -1,23 +1,39 @@
 .home-page {
 	height: 100vh;
+	background-color: #141628;
+	font-family: "Open Sans", sans-serif;
+	color: #fff;
 
 	.content {
 		height: calc(100vh - 5rem);
-		background-color: #080027;
-		color: #fff;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-	}
-	.text {
-		padding-left: 15%;
-		h1 {
-			font-size: 5rem;
+		.text {
+			margin-left: 6rem;
+			h1 {
+				font-size: 6rem;
+				line-height: 1.8;
+			}
+			p {
+				font-size: 3rem;
+				line-height: 1.2;
+			}
+			span {
+				color: #fd4370;
+			}
+			// .btn {
+			// 	padding: 1rem 2.8rem;
+			// 	color: #fff;
+			// 	background-color: #fd4370;
+			// 	cursor: pointer;
+			// }
 		}
-	}
-	.icons {
-		i {
-			margin: 0 1rem;
+		.icons {
+			margin-right: 5rem;
+			i {
+				margin: 0 1rem;
+			}
 		}
 	}
 }

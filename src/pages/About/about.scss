@@ -1,6 +1,6 @@
 .about-page {
 	height: 100vh;
-	background-color: rgb(27, 23, 36);
+	background-color: #1b1e32;
 	color: #fff;
 
 	.header {
@@ -15,14 +15,14 @@
 		width: 70%;
 		margin: auto;
 		margin-top: 15%;
-
+		color: #c0d5e8;
 		.content {
 			font-size: 1.6rem;
 			width: 60%;
 			display: block;
 		}
 
-		img {
+		.profile-img {
 			width: 16rem;
 			border-radius: 50%;
 		}
