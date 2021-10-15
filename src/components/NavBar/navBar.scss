@@ -1,5 +1,5 @@
 .navbar-container {
-	height: 7rem;
+	height: 6rem;
 	background-color: #141628;
 	display: flex;
 	justify-content: space-between;
@@ -7,6 +7,7 @@
 	position: fixed;
 	right: 0;
 	left: 0;
+	z-index: 1;
 	font-family: "Open Sans", sans-serif;
 	.icon img {
 		width: 3.5rem;

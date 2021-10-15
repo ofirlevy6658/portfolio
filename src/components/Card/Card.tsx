@@ -1,4 +1,5 @@
 import React from "react";
+import ReactTooltip from "react-tooltip";
 import { ProjectsData } from "../../data/type";
 
 import "./card.scss";
@@ -16,12 +17,26 @@ export const Card = ({ data }: Props) => {
 					<p>{el.description}</p>
 					<div className="icons">
 						<a href={el.link} target="_blank" rel="noreferrer">
-							<i className="far fa-window-maximize fa-2x"></i>
+							<i
+								data-tip
+								data-for="website-link"
+								className="far fa-window-maximize fa-2x"
+							></i>
 						</a>
 						<a href={el.github} target="_blank" rel="noreferrer">
-							<i className="fab fa-github fa-2x"></i>
+							<i
+								data-tip
+								data-for="github-repo"
+								className="fab fa-github fa-2x"
+							></i>
 						</a>
 					</div>
+					<ReactTooltip id="website-link" type="dark" effect="solid">
+						<span>My project</span>
+					</ReactTooltip>
+					<ReactTooltip id="github-repo" type="dark" effect="solid">
+						<span>Github repo</span>
+					</ReactTooltip>
 				</div>
 			</div>
 		);
