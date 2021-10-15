@@ -37,7 +37,7 @@ export const NavBar = () => {
 					spy
 					smooth
 					hashSpy
-					offset={-60}
+					offset={-100}
 					duration={500}
 					isDynamic={true}
 				>
