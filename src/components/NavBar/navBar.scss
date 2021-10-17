@@ -3,10 +3,9 @@
 	background-color: #141628;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 	align-items: center;
 	position: fixed;
-	right: 0;
-	left: 0;
 	z-index: 1;
 	font-family: "Open Sans", sans-serif;
 	.icon img {
@@ -15,22 +14,20 @@
 		border-radius: 50%;
 	}
 	.sections {
-		width: 100%;
-		display: flex;
-		justify-content: right;
-		gap: 2rem;
-		padding-right: 3rem;
 		span {
 			cursor: pointer;
 			color: #fff;
 			font-size: 1.3rem;
+			padding: 1rem;
 		}
 	}
 }
 @media only screen and (max-width: 600px) {
 	.navbar-container {
+		justify-content: center;
 		.sections {
 			span {
+				padding: 0.5rem;
 				font-size: 1rem;
 			}
 		}
