@@ -1,5 +1,4 @@
 import React from "react";
-// import { Radio } from "semantic-ui-react";
 import { Link } from "react-scroll";
 import myIcon from "../../media/my-icon.jpeg";
 import "./navBar.scss";
@@ -27,7 +26,7 @@ export const NavBar = () => {
 					smooth
 					hashSpy
 					duration={500}
-					offset={-170}
+					offset={-150}
 					isDynamic={true}
 				>
 					<span>About</span>
@@ -38,7 +37,7 @@ export const NavBar = () => {
 					spy
 					smooth
 					hashSpy
-					offset={-100}
+					offset={-70}
 					duration={500}
 					isDynamic={true}
 				>

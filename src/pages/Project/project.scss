@@ -11,3 +11,19 @@
 		margin-top: 6rem;
 	}
 }
+
+@media only screen and (max-width: 1400px) {
+	.project-page {
+		height: auto;
+		padding-bottom: 3rem;
+		h1 {
+			padding: 2rem;
+			color: #fff;
+			font-size: 2rem;
+			text-align: center;
+		}
+		.card-container {
+			margin-top: 0rem;
+		}
+	}
+}

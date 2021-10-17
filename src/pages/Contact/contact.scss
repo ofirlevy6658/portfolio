@@ -16,3 +16,9 @@
 		margin: 0 2rem;
 	}
 }
+
+@media only screen and (max-width: 700px) {
+	.contact-page {
+		height: auto;
+	}
+}

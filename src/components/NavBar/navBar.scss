@@ -10,19 +10,29 @@
 	z-index: 1;
 	font-family: "Open Sans", sans-serif;
 	.icon img {
+		padding: 1.5rem;
 		width: 3.5rem;
 		border-radius: 50%;
-		position: absolute;
-		top: 1.7rem;
-		left: 3rem;
 	}
 	.sections {
-		margin-right: 1rem;
+		width: 100%;
+		display: flex;
+		justify-content: right;
+		gap: 2rem;
+		padding-right: 3rem;
 		span {
 			cursor: pointer;
 			color: #fff;
 			font-size: 1.3rem;
-			margin: 0 2rem;
+		}
+	}
+}
+@media only screen and (max-width: 600px) {
+	.navbar-container {
+		.sections {
+			span {
+				font-size: 1rem;
+			}
 		}
 	}
 }

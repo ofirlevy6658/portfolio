@@ -5,7 +5,7 @@
 	color: #fff;
 
 	.content {
-		height: calc(100vh - 5rem);
+		height: 100vh;
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
@@ -22,12 +22,6 @@
 			span {
 				color: #fd4370;
 			}
-			// .btn {
-			// 	padding: 1rem 2.8rem;
-			// 	color: #fff;
-			// 	background-color: #fd4370;
-			// 	cursor: pointer;
-			// }
 		}
 		.icons {
 			margin-right: 5rem;
@@ -38,7 +32,47 @@
 	}
 }
 
-a {
-	all: unset;
-	cursor: pointer;
+@media only screen and (max-width: 1100px) {
+	.home-page {
+		.content {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-evenly;
+			.text {
+				margin-left: 0;
+				p {
+					line-height: 1.2;
+				}
+			}
+			.icons {
+				margin-right: 0rem;
+				i {
+					margin: 0 2.5rem;
+				}
+			}
+		}
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.home-page {
+		.content {
+			.text {
+				h1 {
+					font-size: 2rem;
+				}
+				p {
+					font-size: 1.5rem;
+					line-height: 1.2;
+				}
+				height: 1px;
+			}
+			.icons {
+				i {
+					margin: 0 0.8rem;
+					font-size: 2rem;
+				}
+			}
+		}
+	}
 }
