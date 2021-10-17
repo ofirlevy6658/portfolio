@@ -1,5 +1,5 @@
 .navbar-container {
-	height: 6rem;
+	height: auto;
 	background-color: #141628;
 	display: flex;
 	justify-content: space-between;
@@ -33,6 +33,11 @@
 			span {
 				font-size: 1rem;
 			}
+		}
+		.icon img {
+			padding: 1rem;
+			width: 3rem;
+			border-radius: 50%;
 		}
 	}
 }
