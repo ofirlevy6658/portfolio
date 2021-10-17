@@ -24,15 +24,13 @@
 }
 @media only screen and (max-width: 600px) {
 	.navbar-container {
-		justify-content: center;
 		.sections {
 			span {
-				padding: 0.5rem;
+				padding: 0.6rem;
 				font-size: 1rem;
 			}
 		}
 		.icon img {
-			padding: 1rem;
 			width: 3rem;
 			border-radius: 50%;
 		}
