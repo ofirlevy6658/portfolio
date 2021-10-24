@@ -1,6 +1,5 @@
 .contact-page {
 	background-color: #000;
-	height: 20vh;
 	color: #fff;
 	line-height: 2;
 	text-align: center;
@@ -17,8 +16,8 @@
 	}
 }
 
-@media only screen and (max-width: 700px) {
-	.contact-page {
-		height: auto;
-	}
-}
+// @media only screen and (max-width: 700px) {
+// 	.contact-page {
+// 		height: auto;
+// 	}
+// }
