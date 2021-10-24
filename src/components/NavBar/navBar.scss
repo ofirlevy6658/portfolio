@@ -1,5 +1,4 @@
 .navbar-container {
-	height: auto;
 	background-color: #141628;
 	display: flex;
 	justify-content: space-between;
@@ -19,6 +18,10 @@
 			color: #fff;
 			font-size: 1.3rem;
 			padding: 1rem;
+		}
+		span:hover {
+			color: #8588b9;
+			transition: all ease 0.5s;
 		}
 	}
 }

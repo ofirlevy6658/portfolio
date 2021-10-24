@@ -142,6 +142,7 @@ a {
 	cursor: pointer;
 }
 a:hover {
+	transition: all ease 0.3s;
 	color: #4682b4;
 }
 
