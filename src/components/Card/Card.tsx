@@ -30,12 +30,24 @@ export const Card = ({ data }: Props) => {
 								className="fab fa-github fa-2x"
 							></i>
 						</a>
+						{el.architecture && (
+							<a href={el.architecture} target="_blank" rel="noreferrer">
+								<i
+									data-tip
+									data-for="architecture"
+									className="fas fa-sitemap fa-2x"
+								></i>
+							</a>
+						)}
 					</div>
 					<ReactTooltip id="website-link" type="dark" effect="solid">
 						<span>My project</span>
 					</ReactTooltip>
 					<ReactTooltip id="github-repo" type="dark" effect="solid">
 						<span>Github repo</span>
+					</ReactTooltip>
+					<ReactTooltip id="architecture" type="dark" effect="solid">
+						<span>Architecture</span>
 					</ReactTooltip>
 				</div>
 			</div>

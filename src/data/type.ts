@@ -4,4 +4,5 @@ export interface ProjectsData {
 	link: string;
 	github: string;
 	img: string;
+	architecture?: string;
 }

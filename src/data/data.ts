@@ -11,6 +11,8 @@ export const projectsData = [
 		link: "https://game-recognition-app.herokuapp.com/",
 		github: "https://github.com/ofirlevy6658/song-recognition-game",
 		img: gameRecImg,
+		architecture:
+			"https://drive.google.com/file/d/17x7oE9ixGx9rVNAnRD7-tA8mJBcX__9W/view?usp=sharing",
 	},
 	{
 		name: "Music player",
